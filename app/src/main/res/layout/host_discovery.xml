@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackedemist.app.Challenges.Host_discovery"
+    android:background="@drawable/hackbg">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/home_hd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/fb_prev1"
+        app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="@string/homebutton"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LEVELS"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="327dp"
+            android:layout_height="467dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageButton
+                android:id="@+id/hd1"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:background="@null"
+                android:src="@drawable/one"
+                android:text="Button"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+                app:layout_row="0"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:src="@drawable/two"
+                android:text="Button"
+                app:layout_column="2"
+                app:layout_gravity="fill"
+                app:layout_row="0"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd3"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/three"
+                android:text="Button"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+
+                app:layout_row="1"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd4"
+                android:layout_width="151dp"
+                android:layout_height="119dp"
+                android:background="@null"
+                android:src="@drawable/four"
+                android:text="Button"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+
+                app:layout_row="1"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:src="@drawable/five"
+                android:text="Button"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+
+                app:layout_row="3"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd6"
+                android:layout_width="153dp"
+                android:layout_height="126dp"
+                android:background="#000"
+                android:src="@drawable/six"
+                android:text="Button"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+
+                app:layout_row="3"
+                app:layout_rowWeight="1" />
+
+            <ImageButton
+                android:id="@+id/hd7"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:background="@null"
+                android:src="@drawable/seven"
+                android:text="Button"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill"
+                app:layout_row="4"
+                app:layout_rowWeight="1" />
+
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

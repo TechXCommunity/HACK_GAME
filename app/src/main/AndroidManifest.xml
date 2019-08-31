@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.termux"
+    android:installLocation="internalOnly"
+    android:sharedUserId="com.termux"
+    android:sharedUserLabel="@string/shared_user_label">
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@drawable/banner"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backupscheme"
+        android:icon="@drawable/logo_edited"
+        android:label="@string/application_name"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Termux"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.hackedemist.app.Login_Activity.Sign_Up"></activity>
+        <activity
+            android:name="com.hackedemist.app.Practicals.Practical_Setoolkit"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Practicals.Practical_Webgoat"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Practicals.Practical_Filebased"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.WebApplication.Level3WebView" />
+        <activity
+            android:name="com.hackedemist.app.Practicals.Practical_Hackthebox"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Practicals.Practical_Metasploit"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.Practicals.Practicals" />
+        <activity
+            android:name="com.hackedemist.app.UserEnumeration.Ue_Hints.Ue_Hints1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.UserEnumeration.Ue_Hints.Ue_Hints2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints3"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints4"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints5"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints6"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints7"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints8"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints9"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.Fb_Hints10"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Cryptography.Crypto_hints.Crypto_Hints1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Cryptography.Crypto_hints.Crypto_hints2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Cryptography.Crypto_hints.Crypto_Hints3"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.Cryptography.Crypto_hints.Crypto_Hints4"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.WebApplication.Wa_Level3" />
+        <activity android:name="com.hackedemist.app.Cryptography.Crypto_Level4" />
+        <activity android:name="com.hackedemist.app.Cryptography.Crypto_Level3" />
+        <activity android:name="com.hackedemist.app.Cryptography.Crypto_Level2" />
+        <activity android:name="com.hackedemist.app.Cryptography.Crypto_Level1" />
+        <activity
+            android:name="com.hackedemist.app.UserEnumeration.Ue_Readme.Ue_Readme1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.UserEnumeration.Ue_Readme.Ue_Readme2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme10"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme9"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme8"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme7"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme6"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme5"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme4"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme3"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Readem.Fb_Readme1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level10" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level9" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level8" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level7" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level6" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level5" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level4" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level3" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level2" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Level1" />
+        <activity android:name="com.hackedemist.app.UserEnumeration.Level_Activity_New" />
+        <activity android:name="com.hackedemist.app.UserEnumeration.Ue_Level2" />
+        <activity android:name="com.hackedemist.app.UserEnumeration.Ue_Level1" />
+        <activity
+            android:name="com.hackedemist.app.LevelCompleteAnimation"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.WebApplication.Level2WebView" />
+        <activity android:name="com.hackedemist.app.WebApplication.Wa_Level2" />
+        <activity android:name="com.hackedemist.app.Challenges.File_Based_Attacks" />
+        <activity android:name="com.hackedemist.app.Challenges.Cryptography" />
+        <activity android:name="com.hackedemist.app.Challenges.Web_Application" />
+        <activity android:name="com.hackedemist.app.Challenges.User_Enumeration" />
+        <activity android:name="com.hackedemist.app.Level_next" />
+        <activity android:name="com.hackedemist.app.Level_start" />
+        <activity android:name="com.hackedemist.app.ReadmePop" />
+        <activity android:name="com.hackedemist.app.ActivityHint11" />
+        <activity
+            android:name="com.hackedemist.app.ActivityHint10"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.ActivityLevel11"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.ActivityLevel10" />
+        <activity android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint9" />
+        <activity
+            android:name="com.hackedemist.app.ActivityHint8"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.WebApplication.Hints.ActivityHint7"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint6"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint5"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint4"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint3"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint2"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity
+            android:name="com.hackedemist.app.File_Based_Attacks.Fb_Hints.ActivityHint1"
+            android:theme="@style/Theme.Termux.PopMe" />
+        <activity android:name="com.hackedemist.app.ActivityLevel8" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level7" />
+        <activity android:name="com.hackedemist.app.WebApplication.Wa_Level1" />
+        <activity android:name="com.hackedemist.app.WebApplication.Level1WebView" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level5" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level6" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level3" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level1" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level4" />
+        <activity android:name="com.hackedemist.app.HostDiscovery.Hd_Level2" />
+        <activity android:name="com.hackedemist.app.Challenges.Host_discovery" />
+        <activity android:name="com.hackedemist.app.Login_Activity.Login_Activity" />
+        <activity android:name="com.hackedemist.app.Second" />
+        <activity
+            android:name="com.hackedemist.app.ActivitySplash"
+            android:label="@string/title_activity_first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+         This (or rather, value 2.1 or higher) is needed to make the Samsung Galaxy S8
+             mark the app with "This app is optimized to run in full screen."
+        -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="10.0" />
+
+        <activity
+            android:name="com.hackedemist.app.TermuxActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <activity-alias
+            android:name=".HomeActivity"
+            android:targetActivity="com.hackedemist.app.TermuxActivity">
+
+            <!-- Launch activity automatically on boot on Android Things devices -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.IOT_LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.hackedemist.app.TermuxHelpActivity"
+            android:exported="false"
+            android:label="@string/application_name"
+            android:parentActivityName="com.hackedemist.app.TermuxActivity"
+            android:resizeableActivity="true"
+            android:theme="@android:style/Theme.Material.Light.DarkActionBar" />
+        <activity
+            android:name="com.hackedemist.filepicker.TermuxFileReceiverActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/application_name"
+            android:noHistory="true"
+            android:resizeableActivity="true"
+            android:taskAffinity="com.termux.filereceiver">
+
+            <!-- Accept multiple file types when sending. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="message/*" />
+                <data android:mimeType="multipart/*" />
+                <data android:mimeType="text/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <!-- Be more restrictive for viewing files, restricting ourselves to text files. -->
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/*" />
+                <data android:mimeType="application/json" />
+                <data android:mimeType="application/*xml*" />
+                <data android:mimeType="application/*latex*" />
+                <data android:mimeType="application/javascript" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.hackedemist.filepicker.TermuxDocumentsProvider"
+            android:authorities="com.termux.documents"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+        <service
+            android:name="com.hackedemist.app.TermuxService"
+            android:exported="false" />
+
+        <receiver android:name="com.hackedemist.app.TermuxOpenReceiver" />
+
+        <provider
+            android:name="com.hackedemist.app.TermuxOpenReceiver$ContentProvider"
+            android:authorities="com.termux.files"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:readPermission="android.permission.permRead" />
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

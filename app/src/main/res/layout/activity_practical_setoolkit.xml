@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackedemist.app.Practicals.Practical_Setoolkit"
+    android:background="@drawable/popup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hinttext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:text="ABOUT"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setoolkit:"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                />
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="395dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fff"
+                android:visibility="visible"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="281dp"
+                android:layout_height="303dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="* The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering.\n * SET has a number of custom attack vectors that allow you to make a believable attack quickly. \n * SET is a product of TrustedSec, LLC – an information security consulting firm located in Cleveland, Ohio."
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More info About The setoolkit click the Link below :"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="395dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fff"
+                android:visibility="visible"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="293dp"
+                android:layout_height="43dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="https://www.trustedsec.com/social-engineer-toolkit-set
+/"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

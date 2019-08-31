@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackedemist.app.Practicals.Practical_Metasploit"
+    android:background="@drawable/popup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hinttext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:text="ABOUT"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metasploit:"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                />
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="395dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fff"
+                android:visibility="visible"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="281dp"
+                android:layout_height="303dp"
+                android:layout_gravity="center"
+                android:text=" * The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.\n * Its best-known sub-project is the open-source[2] Metasploit Framework, a tool for developing and executing exploit code against a remote target machine. Other important sub-projects include the Opcode Database, shellcode archive and related research. \n * The Metasploit Project includes anti-forensic and evasion tools, some of which are built into the Metasploit Framework.\n * Metasploit is pre-installed in the Kali Linux operating system."
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Link"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="293dp"
+                android:layout_height="43dp"
+                android:text="https://www.metasploit.com/
+/"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
